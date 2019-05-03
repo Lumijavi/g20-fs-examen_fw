@@ -8,11 +8,154 @@
   <meta name="author" content="Javier Barrientos Henríquez">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Mi CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <a class="navbar-brand" href="#">J</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">Sobre Mí<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#experience">Experiencia</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#work">Trabajos</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#contact">Contacto</a>
+        </li>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <img src="assets/img/bg_hero.png" alt="hero_img">
+  </section>
+
+  <section id="about">
+    <h2>Sobre Mí</h2>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Mi Experiencia</h2>
+    <hr>
+    <i class="fas fa-code fa-5x"></i>
+    <h3>Desarrollador Fullstack</h3>
+    <p>2019 ~ Comenzando el Desafío</p>
+    <i class="far fa-snowflake fa-5x"></i>
+    <h3>Gestión en frío</h3>
+    <p>2018 ~ 2019</p>
+  </section>
+
+  <section id="work" class="container-fluid bg-success">
+    <h2>MIS ÚLTIMOS TRABAJOS</h2>
+    <hr>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet&coffee">
+      <div class="card-body">
+        <h5 class="card-title">Meet & Coffee</h5>
+        <p class="card-text">Lorem</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/iguana_page.png" class="card-img-top" alt="iguana">
+      <div class="card-body">
+        <h5 class="card-title">Iguana</h5>
+        <p class="card-text">Lorem</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/suricata.png" class="card-img-top" alt="suricata">
+      <div class="card-body">
+        <h5 class="card-title">Suricata</h5>
+        <p class="card-text">Lorem</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/cuppon.png" class="card-img-top" alt="cuppon">
+      <div class="card-body">
+        <h5 class="card-title">Cuppon</h5>
+        <p class="card-text">Lorem</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida">
+      <div class="card-body">
+        <h5 class="card-title">Ricomida</h5>
+        <p class="card-text">Lorem</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/dmark.png" class="card-img-top" alt="dmark">
+      <div class="card-body">
+        <h5 class="card-title">DMark</h5>
+        <p class="card-text">Lorem</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>CONTACTO</h2>
+    <hr>
+    <div class="typeform-widget" data-url="https://lumijavi.typeform.com/to/kXey5S" style="width: 100%; height: 500px;"></div>
+    <script>
+      (function() {
+        var qs, js, q, s, d = document,
+          gi = d.getElementById,
+          ce = d.createElement,
+          gt = d.getElementsByTagName,
+          id = "typef_orm",
+          b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+          js = ce.call(d, "script");
+          js.id = id;
+          js.src = b + "embed.js";
+          q = gt.call(d, "script")[0];
+          q.parentNode.insertBefore(js, q)
+        }
+      })()
+    </script>
+    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+        href="https://admin.typeform.com/signup?utm_campaign=kXey5S&utm_source=typeform.com-8357442-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+  </section>
+
+  <footer class="container-fluid bg-success text-white">
+    <h2>JAVIER</h2>
+    <a href="https://github.com/Lumijavi" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+    <a href="https://www.linkedin.com/in/javierbarrientos" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+    <a href="https://twitter.com/Lumijavi" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+    <a href="https://www.facebook.com/lumijavi" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
