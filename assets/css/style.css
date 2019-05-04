@@ -1,0 +1,46 @@
+/* font-family: 'Oswald', sans-serif;
+
+Oswald:200,400,600,700 */
+.text-gris h2 h3 p hr {
+  color: #373A3C;
+}
+
+header {
+  background-image: url('../img/big_hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 10rem;
+}
+
+.hero-text {
+  font-size: 3rem;
+}
+
+hr {
+  width: 10rem;
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.oswald h1 {
+  font-weight: 700;
+}
+
+.oswald h2 {
+  font-weight: 700;
+}
+
+.oswald li {
+  font-weight: 600;
+}
+
+.oswald p {
+  font-weight: 200;
+}
+
+a {
+  color: inherit;
+}
